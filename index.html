@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tech Summit 2026</title>
+</head>
+
+
+<body>
+	<header>
+		<h1>Tech Summit 2026 </h1>
+		<nav>
+			<a href="#info"> Información
+		</nav>
+		    <a href="#agenda"> Agenda
+		</nav>
+		<nav>
+			<a href="#registro"> Registro
+			| </a>
+		</nav>
+	</header>
+
+
+	<main>
+	    <section id="info">
+	    	<h2> El eveto del año </h2>
+	    	<br>
+	    	<p> Descubre las últimas tedencias en IA y desarollo
+	    	WEB</p>
+	    	<br>
+	    	<img scr="https://ca.wikipedia.org/wiki/Fitxer:Billy_goat.jpg"
+	    	width="400"
+	    	alt="Imagen de una cabra">
+
+	    </section>
+
+	   <h3>Video Teaser</h3>
+	   <iframe
+	       width="560"
+	       height="315"
+	       scr="https://www.youtube.com/embed/dQw4w9WgXcQ"
+	       title="Video del evento"
+	       style="border:0"
+	       allowfullscreen>
+	    </iframe>
+
+	    <h3>Datos Clave</h3>
+	    <dl>
+
+	    	<dt> Ubication</dt>
+	    	<dd>Palacio de Congresos, Madrid.</dd>
+
+	    	<dt> Fecha</dt>
+	    	<dd>15 de Octubre, 2025.</dd>
+	    </dl>
+
+	    <section id="agenda">
+	    	<h2>Agenda del Dia</h2>
+	    	<table border="1" width="100%">
+	    		<thead>
+
+	    			<tr>
+
+	    				<th>Hora</th>
+	    				<th>Charla</th>
+	    				<th>Sala</th>
+	    			</tr>
+	    		</thead>
+	    		<tbody>
+	    			<tr>
+
+	    				<td>09:00</td>
+	    				<td>Keynote de Apertura</td>
+	    				<td>Auditorio A</td>
+	    			</tr>
+	    			<tr>
+
+	    				<td>11:00</td>
+	    				<td>Inteligencia Artificial</td>
+	    				<td>Sala Beta</td>
+	    			</tr>
+	    		</tbody>
+	    	</table>
+	    </section>
+
+	    <try>
+
+	    	<td>14:00</td>
+	    	<td colspan="2" align="center"> PAUSA
+	    PARA COMIDA (Buffet libre)</td>
+	    </try>
+
+	    <h3>Preguntas Frecuentes (FAQ)</h3>
+
+	    <details>
+	    	<summary>¿El evento es gratuito?</summary>
+	    	<p>No, peto tenemos becas para estudiantes.</p>
+	    </details>
+
+	    <details>
+	    	<summary>¿Hay codigo de vestimenta?</summary>
+	    	<p>Vne como quieras, somos programadores.</p>
+	    </details>
+
+	    <figure>
+	    	<blockquote cite="https://twitter.com/usuario">
+	    		"El mejor eveto de mi vida. Aprendí mas en un dia que en un año de carrera."
+	    	</blockquote>
+	        </figcaption>-Ana Garcia, Desarolladora Full Stack
+	        </figcaption>
+	    </figure>
+	</section>
+
+	<hr>
+	<section id="registro">
+		<h2> Inscribete ahora</h2>
+
+		<form action="#" method="post">
+			 </form>
+	</section>
+
+	<fieldset>
+		<legend>Datos Personales</legend>
+
+	    </fieldset>
+
+	    <label for="nombre">Nombre Completo:</label>
+	    <input type="text" id="nombre"
+	    name="nombre" required placeholder="Tu nombre">
+	    <br><br>
+
+	    <label for="email">Email Corporation:</label>
+	    <input type="email" id="email"
+	    name="email" requiered>
+	    <br><br>
+
+<label for="movil">Móvil (9 dígitos):</label>
+                    <input type="tel" id="movil" name="movil" pattern="[0-9]{9}" title="Debe contener 9 números">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Preferencias del Evento</legend>
+
+                    <label for="taller">Elige un taller:</label>
+
+                    <select id="taller" name="taller">
+                        <option value="" disabled selected>-- Selecciona una opción --</option>
+                        <option value="html">HTML Avanzado</option>
+                        <option value="css">CSS Grid</option>
+                        <option value="js">JavaScript Moderno</option>
+                    </select>
+
+                    <br><br>
+
+                    <p>Nivel de experiencia:</p>
+
+                    <input type="radio" id="jr" name="nivel" value="junior">
+                    <label for="jr">Junior</label>
+
+                    <input type="radio" id="mid" name="nivel" value="mid" checked>
+                    <label for="mid">Mid-Level</label>
+
+                    <input type="radio" id="sr" name="nivel" value="senior">
+                    <label for="sr">Senior</label>
+
+                    <br><br>
+
+                    <p>Restricciones alimentarias:</p>
+
+                    <input type="checkbox" id="vegan" name="dieta" value="vegano">
+                    <label for="vegan">Vegano</label>
+
+                    <input type="checkbox" id="gluten" name="dieta" value="gluten">
+                    <label for="gluten">Sin Gluten</label>
+
+                    <br><br>
+
+                    <label for="llegada">Fecha de llegada:</label>
+                    <input type="date" id="llegada" name="llegada" min="2025-10-14" max="2025-10-15">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Personaliza tu Badge</legend>
+
+                    <label for="color">Color favorito:</label>
+                    <input type="color" id="color" name="color_badge" value="#ff0000">
+
+                    <br><br>
+
+                    <label for="felicidad">Nivel de entusiasmo (1-10):</label>
+                    <input type="range" id="felicidad" name="entusiasmo" min="1" max="10">
+                </fieldset>
+
+                <br>
+
+                <p>
+                    <label for="pais">País de origen:</label>
+                    <input list="paises" id="pais" name="pais">
+
+                    <datalist id="paises">
+                        <option value="España">
+                        <option value="México">
+                        <option value="Argentina">
+                        <option value="Colombia">
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="comentarios">Comentarios extra:</label><br>
+
+                    <textarea
+                        id="comentarios"
+                        name="comentarios"
+                        rows="4"
+                        cols="50"
+                        placeholder="Escribe aquí...">
+                    </textarea>
+                </p>
+
+                <button type="submit">¡Inscribirme!</button>
+                <button type="reset">Borrar todo</button>
+
+            </form>
+
+        </section>
+
+	</main>
+
+
+	<footer>¢ 2026 Tech Smmit Camp </footer>	
+
+</body>
+</html>
